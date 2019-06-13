@@ -9,8 +9,13 @@ public class Geometric {
 	public Geometric() {
 		dateCreated = new Date();
 	}
-
+	/**
+	 * Constructor with 2 parameter
+	 * @param color
+	 * @param filled
+	 */
 	public Geometric(String color, boolean filled) {
+		this();
 		this.color = color;
 		this.filled = filled;
 	}
@@ -35,5 +40,9 @@ public class Geometric {
 	
 	public void setFilled(boolean filled) {
 		this.filled = filled;
+	}
+	
+	public String toString() {
+		return "Create date : " + dateCreated + ", color = " + color;
 	}
 }
