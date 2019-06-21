@@ -7,6 +7,11 @@ public class Circle extends Geometric {
 		super();
 	}
 	
+	public Circle(double radius, String color) {
+		this(radius);
+		setColor(color);
+	}
+	
 	public Circle(double radius) {
 		this.radius = radius;
 	}
