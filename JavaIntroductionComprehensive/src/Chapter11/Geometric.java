@@ -43,6 +43,6 @@ public class Geometric {
 	}
 	
 	public String toString() {
-		return "Create date : " + dateCreated + ", color = " + color;
+		return "Create date : " + dateCreated + ", color = " + color + ", filled = " + filled;
 	}
 }
