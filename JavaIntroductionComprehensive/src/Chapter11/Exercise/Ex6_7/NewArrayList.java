@@ -1,4 +1,4 @@
-package Chapter11.Exsercise.Ex6_7;
+package Chapter11.Exercise.Ex6_7;
 
 import java.util.ArrayList;
 import java.util.Date;
